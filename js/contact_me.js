@@ -20,3 +20,21 @@
       return false;
     });
 
+    document.querySelector("#actionbtn").addEventListener("click", () => {
+      window.location.href = "#portfolio";
+      
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
