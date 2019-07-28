@@ -213,6 +213,7 @@ header.masthead h2 {
   display: flex;
   flex: 1 1 auto;
   justify-content: space-around;
+  border-bottom: 1px solid white;
 }
 
 .socials a {
