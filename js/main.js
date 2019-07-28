@@ -35,3 +35,37 @@
  
  
 })(jQuery); // End of use strict
+
+
+const introText = "Hello , I'm Joseph Emmanuel."
+const introText2 = "I'm a Full stack Web developer."
+
+let i = 0;
+let j = 0
+const speed = 60;
+
+const writeIntro1 = () => {
+  if (i < introText.length){
+    document.querySelector("#intro1").innerHTML += introText.charAt(i);
+    i++
+    setTimeout(writeIntro1, speed)
+  }
+  else {
+    setTimeout(writeIntro2, 50)
+  }
+}
+
+
+const writeIntro2 = () => {
+  if (j < introText2.length){
+    document.querySelector("#intro2").innerHTML += introText2.charAt(j);
+    j++
+    setTimeout(writeIntro2, speed)
+  }
+}
+
+
+
+window.onload = () => {
+  writeIntro1()
+}
