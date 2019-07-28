@@ -148,6 +148,12 @@ header.masthead h2 {
   flex-basis: auto;
 }
 
+#intro1{
+  letter-spacing: 1.2rem;
+  font-family: 'Quicksand';
+
+}
+
 @media (max-width: 700px) {
   .intro-text {
     font-size: 28px;

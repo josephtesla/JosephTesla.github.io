@@ -37,8 +37,8 @@
 })(jQuery); // End of use strict
 
 
-const introText = "Hello , I'm Joseph Emmanuel."
-const introText2 = "I'm a Full stack Web developer."
+const introText = "JOSEPH"
+const introText2 = "I'm a Full stack web developer ."
 
 let i = 0;
 let j = 0
