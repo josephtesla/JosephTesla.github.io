@@ -312,4 +312,6 @@ a:focus, a:hover, a:active {
   color: #128f76;
 }
 
-
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  
+}
