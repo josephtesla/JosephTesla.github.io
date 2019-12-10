@@ -38,7 +38,7 @@
 
 
 const introText = "JOSEPH"
-const introText2 = "I'm a Web developer/specialist ."
+const introText2 = "A Full Stack Developer."
 
 let i = 0;
 let j = 0
