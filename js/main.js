@@ -65,7 +65,6 @@ const writeIntro2 = () => {
 }
 
 
-
 window.onload = () => {
   writeIntro1()
 }
